@@ -14,12 +14,12 @@ descargarán las dependencias necesarias para poder ejecutar el proyecto
 
 ## Archivo de configuración para conexión a la Base de Datos PostgreSQL
 
-`Disponible en la siguiente ruta https://github.com/danidaniel6462/Servicio-Api-Automatizaci-n-de-Vuelos-Java-Spring/blob/master/src/main/resources/application.properties`
+`Disponible en la siguiente ruta` https://github.com/danidaniel6462/Servicio-Api-Automatizaci-n-de-Vuelos-Java-Spring/blob/master/src/main/resources/application.properties
 
 ## Pasos necesarios en PostgreSQL para ejecutar una conexión correcta con el servicio
 
 - Abrir postgreSQL y crear una nueva tabla con el nombre vuelos_compania, debe estar creada antes de ejecutar el proyecto en Spring, 
-así se crearán las tablas automáticamente en la base de datos, para revisar el esquema de la base, está disponible en `https://github.com/danidaniel6462/Servicio-Api-Automatizaci-n-de-Vuelos-Java-Spring/blob/master/src/main/resources/ERDEjercicioVuelo.pdf`
+así se crearán las tablas automáticamente en la base de datos, para revisar el esquema de la base, está disponible en https://github.com/danidaniel6462/Servicio-Api-Automatizaci-n-de-Vuelos-Java-Spring/blob/master/src/main/resources/ERDEjercicioVuelo.pdf
 
 ## Ejecutar el proyecto Spring Boot
 
@@ -39,7 +39,7 @@ El servicio esta habilitado para WebSecurity, es decir la mayoría de las rutas 
   - /api/boleto
 - El resto de url necesitan autorización a través de un token generado
 
-es posible crear un usuario con password, al enviar este objeto a la ruta ejemplo: `http://localhost:8087/login` y por POST enviar
+es posible crear un usuario con password, al enviar este objeto a la ruta ejemplo: http://localhost:8087/login y por POST enviar
 => 
 `{
 	"username": "softwareevolutivo",
@@ -61,7 +61,7 @@ Aquel Script ya tiene creado el password encryptado, así se utilizaría un POST
 una vez que se reciba el Token en la Cabecera se debe enviar en todas las peticiones posteriores para obtener datos de la base
 
 ## Puedes utilizar Postman o cualquier software para hacer peticiones al servicio o puedes crear tu aplicación FronEnd para probar los servicios
-si te sirve de guía existe un proyecto realizado con Angular que utiliza este servicio en `https://github.com/danidaniel6462/Cliente-Automatizacion-de-vuelos-ANGULAR/blob/master/README.md`
+si te sirve de guía existe un proyecto realizado con Angular que utiliza este servicio en https://github.com/danidaniel6462/Cliente-Automatizacion-de-vuelos-ANGULAR/blob/master/README.md
 
 ## las rutas disponibles son las siguientes:
 
